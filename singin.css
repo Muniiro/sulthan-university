@@ -1,0 +1,35 @@
+body{
+
+    background-image: -o-linear-gradient();
+}
+
+
+
+.form{
+    background: #cc00cc;
+    margin-left: 330px;
+    margin-top: 4px;
+    padding-left: 30px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    height: 660px;
+    width: 550px;
+    border: 3px solid;
+    border-radius: 30px;
+    font-size: 27px;
+    font-family: lucida fax;
+    color: #000000;
+    
+    
+    
+    
+    
+}
+.reg{
+    
+    font-size: 48px;
+    margin-left: 15px;
+    font-family: Algerian;
+    color: white;
+    
+}
