@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sulthan university</title>
   <link rel="stylesheet" href="Boostrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 <style>
   body {
@@ -29,7 +29,7 @@
 
 
     <nav class="navbar navbar-expand-lg  margin-left-50px;  ">
-      <img class="rounded-circle" src="./imgs/photo_2021-03-12_13-24-38.jpg" style="width: 130px;height: 95px; margin-left: 250px;" alt="">
+      <img class="rounded-circle" src="../logoblack.jpg" style="width: 130px;height: 95px; margin-left: 250px;" alt="">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -89,11 +89,7 @@
                     </button>
                   </div>
                   <div class="modal-body">
-
-
-
-
-                    <div class="form-group">
+<div class="form-group">
                       <label for="exampleDropdownFormEmail2">Student Name</label>
                       <input type="email" class="form-control" id="exampleDropdownFormEmail2"
                         placeholder="Enter Your Name">
@@ -177,13 +173,49 @@
         </style>
 
 
-       
+        <!-- Simulate a smartphone / tablet look -->
+        <div class="mobile-container">
+
+          <!-- Top Navigation Menu -->
+          <div class="topnav">
+
+            <div id="myLinks">
+              <a href="Contact.html">Contact</a>
+
+              <a href="#news">HELP</a>
+              <a href="logot">logOut</a>
+
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+
+          <!-- End smartphone / tablet look -->
+        </div>
+
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
+
+        </script>
+      </div>
   </div>
   </div>
 
   </nav>
-
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  
+  
+  
+  
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -273,8 +305,7 @@
       </div>
     </div>
     <!--INFORMATION ABOUT US-->
-
-    <div class="col-md-4" style="margin-top: 5px;">
+<div class="col-md-4" style="margin-top: 5px;">
       <h3>ABOUT SULTHAN UNIVERSITY</h3>
       <p
         style="margin-top: 13px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
@@ -365,8 +396,7 @@
           <a href="nasromire2021@gmail.come">nasromire2021@gmail.come</a>
         </p> <br>
         <h5 style="color: white; font-weight: bold;"><u>TIXRAAC</u></h5>
-
-        <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-facebook"
+<p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-facebook"
             viewBox="0 0 16 16">
             <path
               d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
@@ -413,16 +443,13 @@
 
 
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-</body>
+ 
+
+
+      
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
